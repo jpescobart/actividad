@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<html lang="es">
+  <head>
+    <title>Pruebas de Software - Lecturas</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+
+  <body class="is-preload">
+    <!-- Header -->
+    <header id="header">
+      <a class="logo" href="index.html">Pruebas de Software</a>
+      <nav>
+        <a href="#menu">Menu</a>
+      </nav>
+    </header>
+
+    <!-- Nav -->
+    <nav id="menu">
+      <ul class="links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="readings.html">Lecturas</a></li>
+        <li><a href="multimedia.html">Multimedia</a></li>
+        <li><a href="activities.html">Actividades</a></li>
+        <li><a href="authors.html">Autores</a></li>
+      </ul>
+    </nav>
+
+    <!-- Highlights -->
+    <section class="wrapper">
+      <div class="inner">
+        <header class="special">
+          <h2>Lecturas</h2>
+        </header>
+        <hr>
+        <div style="background-color: #FFF; padding: 15px;color:#333;">
+          <h2>Objetivos</h2>
+          <h4 style="font-weight: bold;">Objetivo general</h4>
+          <p>Las pruebas de software es un elemento crítico para la garantía del correcto funcionamiento y usabilidad del software a utilizar, sea de industria (empresa) o de versionamiento libre (cualquier persona la puede utilizar).</p>
+
+          <h4 style="font-weight: bold;">Objetivo específico 1</h4>
+          <p>Detectar defectos en el software. Verificar la integración adecuada de los componentes. Verificar que todos los requisitos se han implementado correctamente.</p>
+
+          <h4 style="font-weight: bold;">Objetivo específico 2</h4>
+          <p>Identificar y asegurar que los defectos encontrados se han corregido antes de entregar el software al cliente y garantizar que en producción el software desarrollado funcione sin ningún problema.</p>
+
+          <h4 style="font-weight: bold;">Objetivo específico 3</h4>
+          <p>Diseñar casos de prueba que sistemáticamente saquen a la luz diferentes clases de errores, haciéndolo con la menor cantidad de tiempo y esfuerzo.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrapper">
+      <div class="inner">
+        <div style="background-color: #FFF; padding: 15px;color:#333;">
+          <h2>Conceptos básicos</h2>
+          <p>La forma más común de organizar las actividades relacionadas al proceso de pruebas de software son: Planeación, fija las metas y una estrategia general de pruebas Preparación, se describe el procedimiento general de pruebas y se generan los casos de prueba específicos.</p>
+          <strong>Ejecución</strong>, incluye la observación y medición del comportamiento del producto.<br>
+          <strong>Análisis</strong>, incluye verificación y análisis de resultados para determinar si se observaron fallas.<br>
+          <strong>Seguimiento</strong>, si se detectaron fallas, se inicia un monitoreo para asegurar que se remueva el origen de éstas.<br>
+          <br>
+          <h2>Casos de prueba y Criterios de prueba</h2>
+          <p>Generar casos de prueba efectivos que revelen la presencia de fallas es fundamental para el éxito del proceso de pruebas (etapa de preparación). Idealmente, se debería determinar un conjunto de casos de prueba tales que su ejecución exitosa implique que no hay errores en el software desarrollado. Comúnmente este objetivo ideal no se puede lograr debido a las limitaciones prácticas y teóricas. Cada caso de prueba cuesta dinero: esfuerzo para generarlo, tiempo de cómputo para ejecutarlo, esfuerzo para evaluar los resultados, Por lo tanto, el número de casos de prueba necesarios para detectar los errores debe ser minimizado para reducir costos.</p>
+          <h2>Objetivo del proceso de pruebas</h2>
+          <p>Los dos objetivos principales del proceso de pruebas:</p>
+          <ul>
+            <li>Maximizar el número de errores detectados (cobertura).</li>
+            <li>Reducir al mínimo el número de casos de prueba (costo).</li>
+          </ul>
+          <p>Como con frecuencia son contradictorios, el problema de seleccionar el conjunto de casos de prueba con el que un programa debe ser probado se vuelve una tarea muy compleja.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrapper">
+      <div class="inner">
+        <div style="background-color: #FFF; padding: 15px;color:#333;">
+          <h2>Niveles de pruebas</h2>
+          <p>Generalmente se comienza probando las partes más pequeñas y se continúa con las más grandes. Para el software convencional: - El módulo (componente) se prueba primero - Se continua con la integración de módulos Para el software orientado a objetos Se prueba primero una clase (atributos, métodos, colaboración).</p>
+          <span style="display: block;text-align: center;">
+            <img src="images/niveles.png" title="Niveles" width="60%" alt="Niveles">
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrapper">
+      <div class="inner">
+        <div style="background-color: #FFF; padding: 15px;color:#333;">
+          <h2>Tipos de pruebas de software</h2>
+          <p>Un conjunto de actividades de pruebas suele orientase a comprobar determinados aspectos de un sistema software (o de una parte del mismo). Continuando así con nuestro anterior artículo sobre el modelo de cebolla para los Niveles de Pruebas Software, y siguiendo las directrices del ISTQB, acotaremos los Tipos de Pruebas Software en función del objetivo en que se centran.</p>
+          <h3>PRUEBAS UNITARIAS</h3>
+          <p>Objetivo de la Prueba: Se focaliza en ejecutar cada módulo (o unidad mínima a ser probada, ej = una clase) lo que provee un mejor modo de manejar la integración de las unidades en componentes mayores. Busca asegurar que el código funciona de acuerdo con las especificaciones y que el módulo lógico es válido.</p>
+          <p>Descripción de la Prueba:</p>
+          <ul>
+            <li>Particionar los módulos en pruebas en unidades lógicas fáciles de probar. Por cada unidad hay que definir los casos de prueba (pruebas de caja blanca).</li>
+            <li>Para esto los casos de prueba deben diseñarse de forma tal que se recorran todos los caminos de ejecución posibles dentro del código bajo prueba; por lo tanto, el diseñador debe construirlos con acceso al código fuente de la unidad a probar.</li>
+            <li>Los aspectos a considerar son los siguientes: Rutinas de excepción, Rutinas de error, Manejo de parámetros, Validaciones, Valores válidos, Valores límites, Rangos, Mensajes posibles.</li>
+          </ul>
+          <p>Técnica:</p>
+          <ul>
+            <li>Comparar el resultado esperado con el resultado obtenido. · Si existen errores, reportarlos.</li>
+          </ul>
+          <p>Criterio de Completitud:</p>
+          <ul>
+            <li>Todas las pruebas planeadas han sido ejecutadas.</li>
+            <li>Todos los defectos que se identificaron han sido tenidos en cuenta.</li>
+          </ul>
+          <p>Consideraciones Especiales:</p>
+          <ul>
+            <li>Para la elaboración de pruebas unitarias en java se puede utilizar el JUNIT y CACTUS.</li>
+          </ul>
+          <h3>PRUEBAS DE INTEGRACIÓN</h3>
+          <p>Objetivo de la Prueba: Identificar errores introducidos por la combinación de programas probados unitariamente. Determina cómo la base de datos de prueba será cargada. Verificar que las interfaces entre las entidades externas (usuarios) y las aplicaciones funcionan correctamente. Verificar que las especificaciones de diseño sean alcanzadas.</p>
+          <h3>Prueba de Regresión</h3>
+          <p>se denominan pruebas de regresión a cualquier tipo de pruebas de software que intentan descubrir errores (bugs), carencias de funcionalidad, o divergencias funcionales con respecto al comportamiento esperado del software, causados por la realización de un cambio en el programa. Se evalúa el correcto funcionamiento del software desarrollado frente a evoluciones o cambios funcionales. El propósito de éstas es asegurar que los casos de prueba que ya habían sido probados y fueron exitosos permanezcan así. Se recomienda que este tipo de pruebas sean automatizadas para reducir el tiempo y esfuerzo en su ejecución.</p>
+          <h3>Pruebas de Humo (Smoke Testing o Ad Hoc)</h3>
+          <p>En ingeniería de software y pruebas de software, las pruebas de humo (smoke testing) son aquellas pruebas que pretenden evaluar la calidad de un producto de software previo a una recepción formal, ya sea al equipo de pruebas o al usuario final, es decir, es una revisión rápida del producto de software para comprobar que funciona y no tiene defectos que interrumpan la operación básica del mismo. Se hace la analogía al humo, puesto que en bienes raíces se inyecta humo en las tuberías de agua para validar que no tengan fugas, evitando provocar inundaciones.</p>
+          <h3>PRUEBAS DEL SISTEMA</h3>
+          <p>Las pruebas de software (en inglés software testing) son las investigaciones empíricas y técnicas cuyo objetivo es proporcionar información objetiva e independiente sobre la calidad del producto a la parte interesada o stakeholder. Es una actividad más en el proceso de control de calidad.</p>
+          <p>Las pruebas son básicamente un conjunto de actividades dentro del desarrollo de software. Dependiendo del tipo de pruebas, estas actividades podrán ser implementadas en cualquier momento de dicho proceso de desarrollo. Existen distintos modelos de desarrollo de software, así como modelos de pruebas. A cada uno corresponde un nivel distinto de involucramiento en las actividades de desarrollo.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrapper">
+      <div class="inner">
+        <div style="background-color: #FFF; padding: 15px;color:#333;">
+          <h2>Documentos</h2>
+          <p>En un proyecto de desarrollo de software existe un conjunto de documentos asociados a cada una de las fases del ciclo de vida: planificación, análisis, diseño, construcción, Podemos considerar el proceso de testing como un proyecto que se ejecuta en paralelo con el desarrollo y en el que se pueden distinguir tres grandes etapas:</p>
+          <ul>
+            <li>Preparación de las pruebas.</li>
+            <li>Ejecución de las pruebas.</li>
+          </ul>
+          <p>Finalización de las pruebas. En cada una de estas fases hay que generar la documentación apropiada, lo cual puede ser complicado si no se tiene una referencia adecuada. Para proporcionar una base estándar para la documentación del proceso de testing se creó la norma IEEE 829.IEEE 829 propone una serie de documentos que encajan en las etapas de testing de la siguiente forma:</p>
+          <ul>
+            <li>Preparación de las pruebas.</li>
+            <li>Plan de pruebas.</li>
+            <li>Especificación de diseño de pruebas.</li>
+            <li>Especificación de casos de prueba.</li>
+            <li>Especificación de procedimientos de prueba.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="inner">
+        <div class="copyright">
+          Pruebas de Software.
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+  </body>
+</html>
