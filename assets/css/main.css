@@ -2527,3 +2527,14 @@ body.is-menu-visible #menu {
   transform: translateX(0);
   box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
   visibility: visible; }
+
+.social-media {
+  font-size: 14px;
+  color: #ffffff !important;
+}
+
+.social-media em {
+  font-size: 20px;
+  color: #F47920;
+  padding-left: 10px;
+}
